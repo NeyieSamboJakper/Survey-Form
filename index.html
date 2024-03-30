@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Sambo's BootCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+
+    <div class="container">
+      <form id="survey-form" action="">
+        <div class="form-input">
+          <label for="name" id="name-label">Name</label>
+          <input
+            class="input"
+            id="name"
+            type="text"
+            name="name"
+            required
+            placeholder="Enter your name"
+          />
+          <label for="email" id="email-label">Mail</label>
+          <input
+            class="input"
+            id="email"
+            type="email"
+            required
+            placeholder="Enter your mail"
+          />
+          <label for="number" id="number-label">Age (optional)</label>
+          <input
+            class="input"
+            id="number"
+            type="number"
+            min="6"
+            max="10"
+            placeholder="Age"
+          />
+        </div>
+        <p>Which option best describes your current role?</p>
+        <select class="input" id="dropdown" name="dropdown">
+          <option value="option1">Select an option</option>
+          <option value="option2">Student</option>
+          <option value="option3">Full Time Job</option>
+          <option value="option4">Full Time Learne</option>
+          <option value="option5">Prefer not to say</option>
+          <option value="option6">Other</option>
+        </select>
+        <p class="recomend">Would you recommend freeCodeCamp to a friend?</p>
+
+        <label class="check"
+          ><input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+          />Definitely</label
+        >
+
+        <label class="check"
+          ><input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+          />Maybe</label
+        >
+
+        <label class="check"
+          ><input type="radio" id="female" name="gender" value="female" />Not
+          sure</label
+        >
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <select class="input" id="drop" name="drop">
+          <option value="option1">Select an option</option>
+          <option value="option2">Challenges</option>
+          <option value="option3">Problems</option>
+          <option value="option4">Community</option>
+          <option value="option5">Open source</option>
+        </select>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label class="check"
+          ><input
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option1"
+          />Front end Project</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />Back-end Projects</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />Data Visualization</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />Challenges</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />Open-Source Community</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />Gitter help rooms</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />Videos</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />City Meetups</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />Wiki</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />Forum</label
+        >
+        <label class="check"
+          ><input
+            type="checkbox"
+            type="checkbox"
+            id="checkbox"
+            name="interest"
+            value="option2"
+          />Additional Courses</label
+        >
+        <p class="comment">Any Comments or suggestions?</p>
+        <textarea placeholder="Enter your comments here..."></textarea>
+        <button id="submit" class="input" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
